@@ -14,3 +14,10 @@ computer_choice = random.choice(options)
 user_choice = input("Make your Choice: (r)ock, (p)aper, (s)cissors? ")
 
 # Run Conditionals
+if (user_choice == "r" and computer_choice == "p") or (user_choice == "p" and computer_choice == "s") or (user_choice == "s" and computer_choice == "r"):
+    print(f"The computer selected {computer_choice}. You chose {user_choice}")
+    print("The user have lost.")
+elif(user_choice == computer_choice):
+    print("There is a draw")
+else:
+    print("You have won!")
