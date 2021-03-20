@@ -63,4 +63,4 @@ voting_data = [{"county":"Arapahoe", "registered_voters": 422829},
 #for county_dict in voting_data:
  #   print(county_dict['county'])
 for item in voting_data:
-    print(f"{item['county']} county has {item['registered_voters']:.2f} registered voters.")
+    print(f"{item['county']} county has {item['registered_voters']:,} registered voters.")
