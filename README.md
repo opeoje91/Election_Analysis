@@ -14,7 +14,7 @@ They want to get the following information:
 
 -Data source: election_result.csv
 
--Software: Python (IDLE 3.7 -64 bit)
+-Software: Python 3.6.1, Visual Studio Code, 1. 38.1
 
 ## Election Audit Results
 
