@@ -14,9 +14,19 @@ They want to get the following information:
 
 -Data source: election_result.csv
 
--Software: Python (IDLE 3.7 -64 bit)
+-Software: Python 3.6.1, Visual Studio Code, 1. 38.1
 
-## Summary
+## Election Audit Results
+
+The audit result was explained using the lines of code below, attached a text file to explain the analysis
+
+![](Resources/result.png)
+
+![](Resources/election_audit_result.png)
+
+## Election Audit Summary
+
+The audit analysis script can be used for other elections, like other congressional district or localelection. This can be achieved by changing the county vote to senatorial 
 The election analysis shows that :
 
   - The ***total number of votes*** cast in the election is ***369,711***
@@ -173,9 +183,8 @@ with open(file_to_save, "w") as txt_file:
     print(election_results, end="")
     # Save the final vote count to the text file.
     txt_file.write(election_results)
-        
-        
-        
+
+
 ## Challenge Summary
 
 I used programming to analyze and finalize an election to compare the votes and declear the winner
